@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* les bouttons */
+.btn{
+background-color: rgb(250, 147, 37);
+border-radius: 15px;
+color: white;
+padding: 5px 15px;
+display: inline-block;
+}
+
+/* le container */
+
+.container-1000 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* les flex box */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.justify-center {
+    justify-content: end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* les dimensions */
+
+.w-100{
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-48 {
+    width: 48%;
+
+}
+
+.w-33 {
+    width: 33%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-15{
+    width: 15%;
+}
+/* hero*/
+
+.sectionhero {
+    background-image: url(assets/menuiseries\ figma\ 1.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-position: center;
+
+    height: 100vh;
+}
+
+.liststyle{
+    list-style: none;
+}
+
+.gap{
+    gap: 140px;
+}
+/* les margins*/
+
+.marginbottom{
+    margin-bottom: 10px;
+}
+
+.margintop{
+    margin-top: 30px;
+}
+
+.marginright{
+    margin-right: 40px;
+}
+
+.marginleft{
+    margin-left: 70px;
+}
