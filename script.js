@@ -20,14 +20,14 @@ fetch('menuiserie.json')
 
       document.getElementById("container-cartes").innerHTML += 
       `
-            <div class="flex ">
+            <div class="flex w-33 align-center">
 
                 <img src="${realisation.imageUrl}" alt="" class="w-25">
 
-                <div class="">
+                <div class="w-70">
                     <h3 class=""> ${realisation.titre} </h3>
 
-                    <p class="w-25 ">${realisation.description}</p>
+                    <p class="">${realisation.description}</p>
                 </div>
 
             </div>`
