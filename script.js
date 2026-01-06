@@ -27,7 +27,7 @@ fetch('menuiserie.json')
                 <div class="w-70">
                     <h3 class=""> ${realisation.titre} </h3>
 
-                    <p class="">${realisation.description}</p>
+                    <p class="">${realisation.description} </p>
                 </div>
 
             </div>`
